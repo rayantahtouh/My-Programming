@@ -1,5 +1,6 @@
 import math
 
+#The user interest choice
 print("investment - to calculate the amount of interest you'll earn on your investment")
 print("Brond      - to calculate the amount of interest you'll earn on your investment \n")
 
@@ -12,7 +13,7 @@ if(cal=='investment') or (cal=="Investment") or (cal=="INVESTMENT"):
     print(f"the ammount for the interest you have entered is: {interest_rate}")
     number_year=float(input("Please enter the number of years you plan on inveting: "))
 
-#Type of interest for method calculation:
+#Method calculation for type of interset the users choose:
     interest=str(input("Please choose between simple or compound interest: "))
     if(interest.lower()=="simple"):
      r = interest_rate/100 # r is the interest entered above divided by 100, e.g. if 8% is entered, then r is 0.08.
