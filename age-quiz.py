@@ -1,5 +1,5 @@
 #Enter the user age
-age=int(input("Please enter your age: "))
+person_age=int(input("Please enter your age: "))
 
 #Conditions:
 
